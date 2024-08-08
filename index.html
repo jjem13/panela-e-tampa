@@ -9,12 +9,16 @@
     <form action="" method="post">
         <p>Digite seu nome:</p>
         <input type="text" name="nome" placeholder="Ex: Francisco da Cunha" required>
+        <p>Digite seu email:</p>
         <input type="email" name="email" placeholder="Ex: franciscodacunha@gmail.com" value="@escola.pr.gov.br" required>
+        <p>Digite seu número de telefone:</p>
         <input type="number" name="phone" placeholder="(XX) XXXXX-XXXX" required>
-        <input type="radio" name="work" value="Sim" checked> com certeza
-        <input type="radio" name="work" value="Não"> sem certeza
+        <p>Você trabalha?:</p>
+        <input type="radio" name="work" value="Sim" checked> Sim
+        <input type="radio" name="work" value="Não"> Não
          <input type="checkbox" name="novidades" checked> Aceito receber novidades por e-mail da empresa
 <br>
+<p>De onde você é?:</p>
         <select name="estados" id="">
             <option value="1">Acre</option>
             <option value="2">Alagoa</option>
@@ -22,6 +26,7 @@
             <option value="4">Amazonas</option>
         </select>
         <br>
+        <p>Escreva sua reclamação aqui:</p>
         <textarea name="reclamação" id=""></textarea>
        
         <button type="submit">Enviar</button>
